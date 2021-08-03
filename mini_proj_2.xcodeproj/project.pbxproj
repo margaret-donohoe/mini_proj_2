@@ -16,6 +16,10 @@
 		DA06E4F026B3349D00414A77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA06E4EE26B3349D00414A77 /* LaunchScreen.storyboard */; };
 		DA06E4FB26B3349E00414A77 /* mini_proj_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06E4FA26B3349E00414A77 /* mini_proj_2Tests.swift */; };
 		DA06E50626B3349E00414A77 /* mini_proj_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06E50526B3349E00414A77 /* mini_proj_2UITests.swift */; };
+		DA06E51826B444FE00414A77 /* ViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06E51726B444FE00414A77 /* ViewController_2.swift */; };
+		DA06E51A26B4481F00414A77 /* ViewController_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06E51926B4481F00414A77 /* ViewController_3.swift */; };
+		DA06E51C26B4524200414A77 /* mini_proj_2UITests in Resources */ = {isa = PBXBuildFile; fileRef = DA06E51B26B4524200414A77 /* mini_proj_2UITests */; };
+		DA06E52026B4536A00414A77 /* IMG_4464.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA06E51F26B4536A00414A77 /* IMG_4464.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		DA06E50126B3349E00414A77 /* mini_proj_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mini_proj_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA06E50526B3349E00414A77 /* mini_proj_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mini_proj_2UITests.swift; sourceTree = "<group>"; };
 		DA06E50726B3349E00414A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA06E51726B444FE00414A77 /* ViewController_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_2.swift; sourceTree = "<group>"; };
+		DA06E51926B4481F00414A77 /* ViewController_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_3.swift; sourceTree = "<group>"; };
+		DA06E51B26B4524200414A77 /* mini_proj_2UITests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = mini_proj_2UITests; sourceTree = "<group>"; };
+		DA06E51F26B4536A00414A77 /* IMG_4464.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_4464.jpg; path = ../../../../../../Downloads/IMG_4464.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +116,10 @@
 				DA06E4EC26B3349D00414A77 /* Assets.xcassets */,
 				DA06E4EE26B3349D00414A77 /* LaunchScreen.storyboard */,
 				DA06E4F126B3349D00414A77 /* Info.plist */,
+				DA06E51F26B4536A00414A77 /* IMG_4464.jpg */,
 				DA06E4E926B3349500414A77 /* mini_proj_2.xcdatamodeld */,
+				DA06E51726B444FE00414A77 /* ViewController_2.swift */,
+				DA06E51926B4481F00414A77 /* ViewController_3.swift */,
 			);
 			path = mini_proj_2;
 			sourceTree = "<group>";
@@ -127,6 +138,7 @@
 			children = (
 				DA06E50526B3349E00414A77 /* mini_proj_2UITests.swift */,
 				DA06E50726B3349E00414A77 /* Info.plist */,
+				DA06E51B26B4524200414A77 /* mini_proj_2UITests */,
 			);
 			path = mini_proj_2UITests;
 			sourceTree = "<group>";
@@ -235,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA06E4F026B3349D00414A77 /* LaunchScreen.storyboard in Resources */,
+				DA06E52026B4536A00414A77 /* IMG_4464.jpg in Resources */,
 				DA06E4ED26B3349D00414A77 /* Assets.xcassets in Resources */,
 				DA06E4E826B3349500414A77 /* Main.storyboard in Resources */,
 			);
@@ -251,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA06E51C26B4524200414A77 /* mini_proj_2UITests in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA06E51A26B4481F00414A77 /* ViewController_3.swift in Sources */,
 				DA06E4EB26B3349500414A77 /* mini_proj_2.xcdatamodeld in Sources */,
 				DA06E4E526B3349500414A77 /* ViewController.swift in Sources */,
 				DA06E4E126B3349500414A77 /* AppDelegate.swift in Sources */,
 				DA06E4E326B3349500414A77 /* SceneDelegate.swift in Sources */,
+				DA06E51826B444FE00414A77 /* ViewController_2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
